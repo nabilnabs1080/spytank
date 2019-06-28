@@ -18,13 +18,13 @@ while continuer :
 
 
     if lettre == "z":
-        spytank.avance(125)
+        spytank.avance(255)
     elif lettre == "q":
-        spytank.gauche(125)
+        spytank.gauche(255)
     elif lettre == "s":
-        spytank.recule(-125)
+        spytank.recule(255)
     elif lettre == "d":
-        spytank.droite(125)
+        spytank.droite(255)
     elif lettre == "a":
         spytank.stop
 
